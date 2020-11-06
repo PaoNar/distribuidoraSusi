@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 
 
-Route::get('/',[PagesController::class, 'inicio']);
+Route::get('/',[PagesController::class, 'inicio'])->name('inicio');
 //Route::get('/', function(){
   //  return view('welcome');
 //})
